@@ -5,7 +5,8 @@ function moveSlides() {
     const carrousels = [
         { items: '.carrousel-item', wrapper: '.carrousel-wrapper' },
         { items: '.carrousel-item2', wrapper: '.carrousel-wrapper2' },
-        { items: '.carrousel-item3', wrapper: '.carrousel-wrapper3' }
+        { items: '.carrousel-item3', wrapper: '.carrousel-wrapper3' },
+        { items: '.carrousel-item4', wrapper: '.carrousel-wrapper4' }
     ];
 
     index = (index + 1); // Passe à l'index suivant.
