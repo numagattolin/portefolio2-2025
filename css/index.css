@@ -112,6 +112,14 @@ nav {
 
 
 /*caroussel*/
+.p {
+    color: white;
+    margin-top: 13px;
+    margin-left: 156px;
+    font-size: 30px;
+  }
+
+
 .carrousel {
     position: relative;
     width: 400px;
@@ -171,6 +179,13 @@ nav {
       }
   }
 
+  .m {
+    color: white;
+    margin-top: 13px;
+    margin-left: 593px;
+    font-size: 30px;
+  }
+
   .carrousel2 {
     position: relative;
     width: 400px;
@@ -178,7 +193,7 @@ nav {
     border-radius: 10px;
     margin-left: 521px;
     height: 400px;
-    margin-top: -400px;
+    margin-top: -447px;
   }
   
   .carrousel-wrapper2 {
@@ -230,6 +245,13 @@ nav {
       }
   }  
 
+  .c  {
+    color: white;
+    margin-top: 13px;
+    margin-left: 1054px;
+    font-size: 30px;
+   }   
+
   .carrousel3 {
     position: relative;
     width: 400px;
@@ -237,7 +259,7 @@ nav {
     border-radius: 10px;
     margin-left: 957px;
     height: 400px;
-    margin-top: -400px;
+    margin-top: -447px;
 
   }
   
@@ -290,15 +312,23 @@ nav {
       }
   }    
 
+  .ph {
+    color: white;
+    margin-top: 13px;
+    margin-left: 1471px;
+    font-size: 30px;
+   }   
+
   .carrousel4 {
     position: relative;
     width: 400px;
     overflow: hidden;
     border-radius: 10px;
-    margin-left: 1399px;
+    margin-left: 1397px;
     height: 400px;
-    margin-top: -400px;
+    margin-top: -453px;
 }
+
 
   
   .carrousel-wrapper4 {
@@ -350,6 +380,13 @@ nav {
       }
   }    
 
+  .ill {
+    color: white;
+    margin-top: 13px;
+    margin-left: 184px;
+    font-size: 30px;
+   }   
+
   .carrousel5 {
     position: relative;
     width: 400px;
@@ -357,7 +394,7 @@ nav {
     border-radius: 10px;
     margin-left: 85px;
     height: 400px;
-    margin-top: 95px;
+    margin-top:41px;
 }
 
   
@@ -410,6 +447,13 @@ nav {
       }
   }      
 
+  .ani {
+    color: white;
+    margin-top: 13px;
+    margin-left: 590px;
+    font-size: 30px;
+   }   
+
   .carrousel6 {
     position: relative;
     width: 400px;
@@ -417,7 +461,7 @@ nav {
     border-radius: 10px;
     margin-left: 520px;
     height: 400px;
-    margin-top: -402px;
+    margin-top: -454px;
 }
 
 
@@ -471,6 +515,13 @@ nav {
       }
   }    
 
+  .mon {
+    color: white;
+    margin-top: 13px;
+    margin-left: 1074px;
+    font-size: 30px;
+   }  
+
   .carrousel7 {
     position: relative;
     width: 400px;
@@ -478,7 +529,7 @@ nav {
     border-radius: 10px;
     margin-left: 957px;
     height: 400px;
-    margin-top: -401px;
+    margin-top: -454px;
 }
 
   
