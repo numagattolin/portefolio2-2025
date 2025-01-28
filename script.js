@@ -6,7 +6,11 @@ function moveSlides() {
         { items: '.carrousel-item', wrapper: '.carrousel-wrapper' },
         { items: '.carrousel-item2', wrapper: '.carrousel-wrapper2' },
         { items: '.carrousel-item3', wrapper: '.carrousel-wrapper3' },
-        { items: '.carrousel-item4', wrapper: '.carrousel-wrapper4' }
+        { items: '.carrousel-item4', wrapper: '.carrousel-wrapper4' },
+        { items: '.carrousel-item5', wrapper: '.carrousel-wrapper5' },
+        { items: '.carrousel-item6', wrapper: '.carrousel-wrapper6' },
+        { items: '.carrousel-item7', wrapper: '.carrousel-wrapper7' }
+
     ];
 
     index = (index + 1); // Passe à l'index suivant.
