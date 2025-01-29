@@ -111,12 +111,18 @@ nav {
 }
 
 
+.nom {
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
 /*caroussel*/
 .p {
     color: white;
-  margin-top: 13px;
-  margin-left:112px;
-  font-size: 30px;
+    margin-top: 13px;
+    margin-left: 156px;
+    font-size: 30px;
   }
 
 
@@ -193,7 +199,7 @@ nav {
     border-radius: 10px;
     margin-left: 521px;
     height: 400px;
-    margin-top: -489px;
+    margin-top: -447px;
   }
   
   .carrousel-wrapper2 {
@@ -245,83 +251,409 @@ nav {
       }
   }  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .c  {
+    color: white;
+    margin-top: 13px;
+    margin-left: 1054px;
+    font-size: 30px;
+   }   
+
+  .carrousel3 {
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 957px;
+    height: 400px;
+    margin-top: -447px;
+
+  }
+  
+  .carrousel-wrapper3 {
+      display: flex;
+      position: relative;
+      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
+  }
+  
+  .carrousel-item3 {
+      min-width: 100%;
+      height: 398px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      animation: fadeIn 20s forwards;
+  }
+  
+  .carrousel-item3 img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  
+  /* Animation du fade */
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  /* Animation pour faire défiler les images automatiquement */
+  @keyframes moveCarousel {
+      0% {
+          transform: translateX(0);
+      }
+      33.33% {
+          transform: translateX(-100%);
+      }
+      66.66% {
+          transform: translateX(-200%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+  }    
+
+  .ph {
+    color: white;
+    margin-top: 13px;
+    margin-left: 1471px;
+    font-size: 30px;
+   }   
+
+  .carrousel4 {
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 1397px;
+    height: 400px;
+    margin-top: -453px;
+}
+
+
+  
+  .carrousel-wrapper4 {
+      display: flex;
+      position: relative;
+      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
+  }
+  
+  .carrousel-item4 {
+      min-width: 100%;
+      height: 398px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      animation: fadeIn 20s forwards;
+  }
+  
+  .carrousel-item4 img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  
+  /* Animation du fade */
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  /* Animation pour faire défiler les images automatiquement */
+  @keyframes moveCarousel {
+      0% {
+          transform: translateX(0);
+      }
+      33.33% {
+          transform: translateX(-100%);
+      }
+      66.66% {
+          transform: translateX(-200%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+  }    
+
+  .ill {
+    color: white;
+    margin-top: 13px;
+    margin-left: 184px;
+    font-size: 30px;
+   }   
+
+  .carrousel5 {
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 85px;
+    height: 400px;
+    margin-top:41px;
+}
+
+  
+  .carrousel-wrapper5 {
+      display: flex;
+      position: relative;
+      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
+  }
+  
+  .carrousel-item5 {
+      min-width: 100%;
+      height: 398px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      animation: fadeIn 20s forwards;
+  }
+  
+  .carrousel-item5 img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  
+  /* Animation du fade */
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  /* Animation pour faire défiler les images automatiquement */
+  @keyframes moveCarousel {
+      0% {
+          transform: translateX(0);
+      }
+      33.33% {
+          transform: translateX(-100%);
+      }
+      66.66% {
+          transform: translateX(-200%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+  }      
+
+  .ani {
+    color: white;
+    margin-top: 13px;
+    margin-left: 590px;
+    font-size: 30px;
+   }   
+
+  .carrousel6 {
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 520px;
+    height: 400px;
+    margin-top: -454px;
+}
+
+
+  
+  .carrousel-wrapper6 {
+      display: flex;
+      position: relative;
+      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
+  }
+  
+  .carrousel-item6 {
+      min-width: 100%;
+      height: 398px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      animation: fadeIn 20s forwards;
+  }
+  
+  .carrousel-item6 img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  
+  /* Animation du fade */
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  /* Animation pour faire défiler les images automatiquement */
+  @keyframes moveCarousel {
+      0% {
+          transform: translateX(0);
+      }
+      33.33% {
+          transform: translateX(-100%);
+      }
+      66.66% {
+          transform: translateX(-200%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+  }    
+
+  .mon {
+    color: white;
+    margin-top: 13px;
+    margin-left: 1074px;
+    font-size: 30px;
+   }  
+
+  .carrousel7 {
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 957px;
+    height: 400px;
+    margin-top: -454px;
+}
+
+  
+  .carrousel-wrapper7 {
+      display: flex;
+      position: relative;
+      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
+  }
+  
+  .carrousel-item7 {
+      min-width: 100%;
+      height: 398px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      animation: fadeIn 20s forwards;
+  }
+  
+  .carrousel-item7 img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  
+  /* Animation du fade */
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  /* Animation pour faire défiler les images automatiquement */
+  @keyframes moveCarousel {
+      0% {
+          transform: translateX(0);
+      }
+      33.33% {
+          transform: translateX(-100%);
+      }
+      66.66% {
+          transform: translateX(-200%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+  }  
+
+  .mo {
+    color: white;
+    margin-top: 13px;
+    margin-left: 1520px;
+    font-size: 30px; 
+   }  
+
+  .carrousel8 {
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 1394px;
+    height: 400px;
+    margin-top: -452px;
+}
+
+  
+  .carrousel-wrapper8 {
+      display: flex;
+      position: relative;
+      animation: moveCarousel 0.1.15s linear infinite; /* Animation du défilement automatique */
+  }
+  
+  .carrousel-item8 {
+      min-width: 100%;
+      height: 398px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      animation: fadeIn 20s forwards;
+  }
+  
+  .carrousel-item8 img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  
+  /* Animation du fade */
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  /* Animation pour faire défiler les images automatiquement */
+  @keyframes moveCarousel {
+      0% {
+          transform: translateX(0);
+      }
+      33.33% {
+          transform: translateX(-100%);
+      }
+      66.66% {
+          transform: translateX(-200%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+  }   
   
   /* Responsive */
 @media screen and (max-width: 1024px) {
