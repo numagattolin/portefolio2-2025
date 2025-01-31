@@ -111,13 +111,12 @@ nav {
 }
 
 
-
-
 /*caroussel*/
 .p {
     color: white;
     margin-top: 13px;
-    margin-left: 225px;
+    margin-left: 156px;
+    font-size: 30px;
   }
 
 
@@ -183,7 +182,7 @@ nav {
   .m {
     color: white;
     margin-top: 13px;
-    margin-left: 660px;
+    margin-left: 593px;
     font-size: 30px;
   }
 
