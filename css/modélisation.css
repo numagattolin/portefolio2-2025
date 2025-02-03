@@ -113,9 +113,10 @@ nav {
 
 .titre0 {
     color: white;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-left: 871px;
+    margin-top: 24px;
 }
+
 
 
 /*caroussel*/
@@ -134,7 +135,7 @@ nav {
     border-radius: 10px;
     margin-left: 85px;
     height: 400px;
-    margin-top: 100px;
+    margin-top: 25px;
   }
   
   .carrousel-wrapper {
@@ -386,6 +387,12 @@ nav {
           transform: translateX(0);
       }
   }    
+
+  .titre1 {
+    color: white;
+    margin-left: 871px;
+    margin-top: 24px;
+  } 
 
   .ill {
     color: white;
